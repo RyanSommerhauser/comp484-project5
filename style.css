@@ -1,0 +1,33 @@
+#status {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+
+    background: rgba(255, 255, 255, 0.85);
+    padding: 20px 40px;
+    border-radius: 12px;
+
+    z-index: 999;
+    pointer-events: none; /* Doesn't block clicks */
+}
+
+#status:empty {
+    display: none;
+}
+
+#map {
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+#question {
+    font-size: 24px;
+    margin: 20px;
+    font-weight: bold;
+}
